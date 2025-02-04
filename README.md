@@ -42,8 +42,8 @@ Single-cell RNA sequencing (scRNA-seq) technology provides unprecedented resolut
 ## 3.1 Environment Configuration
 ```
 joblib==1.3.2
-matplotlib
-numpy
+matplotlib==3.8.1
+numpy==1.26.4
 pandas==2.0.3
 PyYAML==6.0.1
 scanpy==1.10.3
