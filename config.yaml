@@ -1,0 +1,146 @@
+Usoskin:
+  seed: 34089
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden : 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 5
+  pca_num : 15
+  drop_edge_rate_1: 0.05
+  drop_edge_rate_2: 0.05
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.15
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\Usoskin\ours\'
+
+test:
+  seed: 34095
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden : 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 5
+  pca_num : 15
+  drop_edge_rate_1: 0.05
+  drop_edge_rate_2: 0.05
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.15
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\test\'
+
+sim:
+  seed: 35001
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden : 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 10
+  pca_num : 8
+  drop_edge_rate_1: 0.05
+  drop_edge_rate_2: 0.05
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.15
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\simData\ours\d80\'
+
+pbmc:
+  seed: 34881
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden : 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 15
+  pca_num : 18
+  drop_edge_rate_1: 0.1
+  drop_edge_rate_2: 0.1
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.15
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\Pbmc\ours\d50\'
+
+juraket-293t:
+  seed: 35682
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden : 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 10
+  pca_num : 10
+  drop_edge_rate_1: 0.05
+  drop_edge_rate_2: 0.05
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.1
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\juraket-293t\ours\d50\'
+
+E3E7:
+  seed: 37001
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden : 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 5
+  pca_num : 20
+  drop_edge_rate_1: 0.05
+  drop_edge_rate_2: 0.05
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.1
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\E3E7\ours\'
+
+Baron:
+  seed: 60001
+  if_training : True
+  learning_rate: 0.001
+  ae_hidden: 512
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GATv2Conv'
+  num_layers: 2
+  k_neighbor : 25
+  pca_num : 20
+  drop_edge_rate_1: 0.05
+  drop_edge_rate_2: 0.05
+  drop_feature_rate_1: 0.1
+  drop_feature_rate_2: 0.1
+  tau: 0.4
+  num_epochs: 300
+  weight_decay: 0.00001
+  data_path: 'F:\experiment_6\Baron\ours\'
