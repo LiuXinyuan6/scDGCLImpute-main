@@ -10,7 +10,7 @@ Single-cell RNA sequencing (scRNA-seq) technology provides unprecedented resolut
 - https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.1.0/pbmc4k
 
 ## 2.2 Jurkat-293t:
-https://www.10xgenomics.com/datasets/50-percent-50-percent-jurkat-293-t-cell-mixture-1-standard-1-1-0
+- https://www.10xgenomics.com/datasets/50-percent-50-percent-jurkat-293-t-cell-mixture-1-standard-1-1-0
 
 ## 2.3 Baron:
 - Gene Expression Omnibus (GEO) under accession number GSE102827
